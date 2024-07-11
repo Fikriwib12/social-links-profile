@@ -1,0 +1,13 @@
+:root {
+  --green: hsl(75, 94%, 57%);
+  --white: hsl(0, 0%, 100%);
+  --Grey: hsl(0, 0%, 20%);
+  --Dark_Grey: hsl(0, 0%, 12%);
+  --Off_Black: hsl(0, 0%, 8%);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--Off_Black);
+}
