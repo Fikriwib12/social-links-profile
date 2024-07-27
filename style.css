@@ -9,5 +9,65 @@
 body {
   margin: 0;
   padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
   background-color: var(--Off_Black);
+  color: white;
+  font-family: "Inter", sans-serif;
+}
+
+.card {
+  background-color: var(--Dark_Grey);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px 25px;
+  border-radius: 12px;
+}
+.card img {
+  width: 35%;
+  margin-top: 20px;
+  border-radius: 50%;
+}
+h3 {
+  font-size: 24px;
+}
+.card p:nth-of-type(1) {
+  margin-top: -20px;
+  color: var(--green);
+}
+
+p {
+  font-size: 14px;
+}
+.button-group {
+  display: grid;
+  /* background-color: rebeccapurple; */
+  width: 100%;
+  margin-top: 10px;
+}
+.card .button-group button {
+  padding: 8px;
+  border-radius: 4px;
+  border: solid var(--Grey);
+  background-color: var(--Grey);
+  color: white;
+  margin-bottom: 10px;
+}
+.card .button-group button:hover {
+  background-color: var(--green);
+  color: var(--Off_Black);
+  border: solid var(--green);
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
